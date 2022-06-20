@@ -1,0 +1,58 @@
+/*Este CSS tem como fim o aprendizado*/
+/* chaset "UTF-8" suporta caracteres especiais no css*/
+@charset "UTF-8";
+.conteiner{
+    margin-left: 18%;
+    background: #C9D7F8;
+    width:64%;
+    height: 100%;
+    /*padding serve para dar espaçamento entre as margens e o conteúdo*/
+    padding:10px;
+    /* regula a disponibilização dos blocos internos. */
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    flex-basis: auto;
+    }
+.primeiro{
+    width:200px;
+    height:200px;
+    border: dashed #E2c044;
+    background: #38023B;
+    color: #E2c044;
+}
+.segundo{
+    width:200px;
+    height:200px;
+    border: black;
+    border-style: dashed;
+    background: #E2C044;
+}
+.terceiro{
+    width:200px;
+    height:200px;
+    border: black;
+    border-style: dashed;
+    background: #587B7F;
+ }
+.quarto{
+    width:200px;
+    height:200px;
+    border:  dashed #587B7F;
+    background: #1E152A;
+    color: #587B7F;
+}
+h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+@media(max-width:950px){
+        .conteiner{
+        width: 64%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        margin-left: 18%;
+        justify-content: center;
+        }
+}
