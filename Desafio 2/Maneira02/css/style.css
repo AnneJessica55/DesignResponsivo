@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.main{
+ background: #C8FFBE;
+ display: inline-block;
+ width:80%;
+ margin: auto;
+ align-content: center;
+ justify-content: center;
+ margin-left: 10%;
+ padding: 0;
+ position: relative;
+ padding: 2%;
+}
+.primeseg{
+    width: 40%;
+    display: inline-flex;
+    margin: auto;
+    background: #C8FFBE;
+    margin: auto;
+    margin-right: -1%;
+    margin-left: 10%;
+}
+.tercequar{
+    width: 40%;
+    display: inline-flex;
+    margin: auto;
+    background: #C8FFBE;
+    margin: auto;
+    margin-left: -1%;
+}
+.prim{
+    width:200px;
+    height:200px;
+    background: #EDFFAB;
+    border: dashed #BA9593;
+    color:#BA9593;
+    text-align: center;
+}
+.seg{
+    width:200px;
+    height:200px;
+    background: #BA9593;
+    border: dashed #EDFFAB;
+    color:#EDFFAB;
+    text-align: center;
+}
+.terce{
+    width:200px;
+    height:200px;
+    background: #89608E;
+    border: dashed #623B5A;
+    color:#623B5A;
+    text-align: center;  
+}
+.quar{
+    width:200px;
+    height:200px;
+    background: #623B5A;
+    border: dashed #89608E;
+    color:#89608E;
+    text-align: center; 
+}
+@media(max-width:1200px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .primeseg{
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+    }
+    .tercequar{
+        margin: auto;
+        width: 80%; 
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:600px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .primeseg{
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .tercequar{
+        margin: auto;
+        width: 80%; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
