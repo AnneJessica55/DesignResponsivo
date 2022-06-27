@@ -1,0 +1,1522 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,700&display=swap');
+body{
+    background: fixed #2746B9;
+    margin: 0px;
+}
+body * {
+    box-sizing: border-box;
+}
+header{
+    background: #00B2CA;
+    width:100vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 1px 2px 2px 1px#008da0;
+    vertical-align: middle;
+
+}
+nav{
+    display: inline;
+    width:80%;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right:7%;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    padding-top: -15%;
+}
+nav ul{
+    padding-left:10%;
+    padding-top: 2%;
+
+}
+nav a{
+    text-decoration: none;
+    color:bisque;
+}
+nav a:hover{
+    font-weight: 900;
+}
+header img{
+    display:inline-block;
+    padding: 20px 0px 0 5%;
+    width:150px;
+    height:auto;
+    
+}
+main{
+    margin:auto;
+    padding: 0%;
+    display: block;
+    flex-direction: column;
+}
+#index{
+    width:100vw;
+    height:100vh;
+    margin: 0% auto 6%;
+    padding: 2%;
+    display:block;
+    align-items: center;
+
+}
+#index img{
+    width:180px;
+
+}
+#index h2{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#00ff88;
+    text-shadow:2px 2px #005e32;
+}
+#index h1{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#00ff88;
+    text-shadow:2px 2px #005e32;
+}
+.firstimp{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh auto;
+    vertical-align: middle;
+    
+}
+.learn{
+    display:flex;
+    width:16vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #D999B9;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px #523945 ;
+}
+.opt{
+    display:flex;
+    width:16vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #D999B9;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px #523945 ;
+}
+.together{
+    display:flex;
+    width:16vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #D999B9;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px #523945 ;;
+}
+.time{
+    display:flex;
+    width:16vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #D999B9;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px #523945 ;
+}
+.notlate{
+    display:flex;
+    width:16vw;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #D999B9;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px #523945 ;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: #2746B9;
+    background: #B9E28C;
+    justify-self: last baseline;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    
+    padding:20px 0px 20px 0px;
+}
+
+#cursos{
+    background: #FFFAFA;
+    display:block;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 80vw;
+    padding-bottom: 4%;
+}
+#cursos a{
+    text-decoration: none;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+}
+
+#cursos figcaption a:hover{
+    background: #008da0;
+    border: dashed #182c75;
+    font-weight: 900;
+}
+#cursos h1{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: center;
+    padding:3% 0%;
+}
+#cursos h2{
+    display: block;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: center;
+    justify-content: center;
+}
+#cursos h3{
+    display: block;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: right;
+    padding-right: 1%;
+}
+#cursos h3 a:hover {
+    border: dashed #00ff88;
+    background: #070d24;
+    color: #00ff88;
+    font-weight: 900;
+}
+.ti{
+    display: flex;
+    background: #FFFAFA;
+    margin: auto;
+    width: 80vw;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.ti img{
+    width:100px;
+    height: 100px;
+    vertical-align: middle;
+}
+.ti figure{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    
+}
+.ti figcaption{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    vertical-align: middle;
+    width: 100px;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+    .artesa{
+        display: flex;
+        background: #FFFAFA;
+        margin: auto;
+        width: 80vw;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .artesa img{
+        width:100px;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .artesa figure{
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        width: 100px;
+        position: relative;
+        
+    }
+.artesa figcaption{
+font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #182c75;
+vertical-align: middle;
+width: 100px;
+height:100px;
+text-align: center;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.musica{
+display: flex;
+background: #FFFAFA;
+margin: auto;
+width: 80vw;
+align-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.musica img{
+width:100px;
+height: 100px;
+vertical-align: middle;
+}
+.musica figure{
+display: inline-block;
+align-self: center;
+text-align: center;
+width: 100px;
+position: relative;
+
+}
+.musica figcaption{
+font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #182c75;
+vertical-align: middle;
+width: 100px;
+height:100px;
+text-align: center;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.midia{
+display: flex;
+background: #FFFAFA;
+margin: auto;
+width: 80vw;
+align-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.midia img{
+width:100px;
+height: 100px;
+vertical-align: middle;
+}
+.midia figure{
+display: inline-block;
+align-self: center;
+text-align: center;
+width: 100px;
+position: relative;
+
+}
+.midia figcaption{
+font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #182c75;
+vertical-align: middle;
+width: 100px;
+height:100px;
+text-align: center;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.vest{
+display: flex;
+background: #FFFAFA;
+margin: auto;
+width: 80vw;
+align-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.vest img{
+width:100px;
+height: 100px;
+vertical-align: middle;
+}
+.vest figure{
+display: inline-block;
+align-self: center;
+text-align: center;
+width: 100px;
+position: relative;
+
+}
+.vest figcaption{
+font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #182c75;
+vertical-align: middle;
+width: 100px;
+height:100px;
+text-align: center;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.idiomas{
+    display: flex;
+    background: #FFFAFA;
+    margin: auto;
+    width: 80vw;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.idiomas img{
+    width:100px;
+    height: 100px;
+    vertical-align: middle;
+}
+.idiomas figure{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    
+}
+.idiomas figcaption{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    vertical-align: middle;
+    width: 100px;
+    height:100px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+#oport{
+    display: flex;
+    flex-direction: column;
+    /*vh e vw são porcentagens em relação a viewport*/
+    height: 110vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;  
+    margin: 10vh auto 0;  
+    
+}
+#oport * {
+    box-sizing:border-box;
+}
+
+.main-login{
+    height: 100%;
+    width: 100%;
+    background:#00B2CA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+    display: flex;
+    width:45vw;
+    height:100vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.left-login img{
+    width: 50%;
+}
+.left-login > h2{
+    color:#182c75;
+    text-shadow: #070d24;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.left-login > h3{
+    color:#182c75;
+    text-shadow: #070d24;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top:5%;
+}
+.left-login  a{
+    text-decoration: none;
+    color:#182c75;
+}
+.left-login a:hover{
+    border: dashed #00ff88;
+    background: #070d24;
+    color: #00ff88;
+    font-weight: 900;
+}
+.right-login{
+    display: flex;
+    width:45vw;
+    height:100vh;
+    /*O justify-contents alinha o conteúdo no eixo x*/
+    justify-content: center;
+    /*O align-item alinha os ítens no eixo y*/
+    align-items: center;
+    margin: auto;
+}
+.right-login img{
+    margin:auto;
+    width:10vw;
+}
+.card-login{
+    /*A porcentagem é em relação a div*/
+    width:60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px 35px;
+    background: #D999B9;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow:0px 10px 40px #533946 ;
+}
+.card-login > h2{
+    font-family: "Gluten",Arial, Helvetica, sans-serif;
+    color:#00ff88;
+    text-shadow:2px 2px #005e32;
+    font-weight: 800;
+    margin:0;
+}
+.text-field{
+    width: 100%;
+    /*Atenção: quando usado o Display: flex; o justify-content passa a alinha no eixo y e o align-items no eixo x*/
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:10px 0px;
+}
+.text-field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:#D17B88;
+    color:#5a363b;
+    font-size:12pt;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 10px #5a363b;
+    outline: none;
+    box-sizing: border-box;
+}
+.text-field > input::placeholder{
+    color:#5a363b;
+    font-size:12pt;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.text-field > label{
+    color:#5a363b;
+    margin-bottom:10px;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+}
+.btn-login{
+    width: 40%;
+    padding: 16px 0px;
+    margin:25px;
+    border:none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: #00ff88;
+    box-shadow: #005e32;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+    color:#5a363b;
+    cursor: pointer;
+    
+}
+#sobre{
+    width:80vw;
+    height:auto;
+    background: #FFFAFA;
+    margin: 2% auto;
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 4px 12px 20px #525050;
+    box-sizing: border-box;
+}
+#sobre h3{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: right;
+}
+#sobre h3 a{
+    color: #182c75;
+    text-decoration: none;
+}
+#sobre h3 a:hover{
+    border: dashed #00ff88;
+    background: #070d24;
+    color: #00ff88;
+    font-weight: 900;
+}
+.nos{
+    margin: 0% auto 5%;
+}
+.nos h1{
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: center;
+}
+.nos p{
+    font-family: 'Nunito','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: justify;
+    text-indent: 5em; 
+}
+.video{
+    margin: auto;
+}
+#fale{
+   width: 100%;
+    height:auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+pre{
+    width: 80%;
+}
+.faleconosco{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:100%;
+    background: #B9E28C;
+    justify-content: center;
+}
+.faleconosco img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+.faleconosco h2{
+    display: block;
+    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #182c75;
+    text-align: center;
+    justify-content: center;
+}
+#faleconosco-form{
+    width:80%;
+    background: #D17B88;
+    margin: 5% auto;
+}
+#faleconosco-form img{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+#faleconosco-form > label{
+    color:#070d24;
+    margin-bottom:10px;
+    padding-right:30px ;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+}
+#faleconosco-form > input{
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    background:#B9E28C;
+    color:#5a363b;
+    font-size:12pt;
+    font-family: "Nunito",Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 10px #5a363b;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sending{
+    background: #2746B9;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.erasing{
+    background: #2746B9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+select{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+textarea{
+    display: flex;
+    width:30%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+legend{
+text-align: center;
+box-sizing: border-box;
+color:#070d24;
+margin-bottom:10px;
+font-family: "Nunito",Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width:1114px){
+    .notlate{
+        display:none;
+    }
+    .learn{
+        display:flex;
+        width:20vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+    .opt{
+        display:flex;
+        width:20vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+    .together{
+        display:flex;
+        width:20vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;;
+    }
+    .time{
+        display:flex;
+        width:20vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+}
+@media only screen and (max-width:950px){
+    .learn{
+        display:flex;
+        width:30vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+    .opt{
+        display:flex;
+        width:30vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+    .together{
+        display:none;
+    }
+    .time{
+        display:flex;
+        width:30vw;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background: #D999B9;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px #523945 ;
+    }
+    .card-login{
+        width:85%;
+    }
+    header{
+        background: #00B2CA;
+        width:100vw;
+        height: auto;
+        margin: auto;
+        display: flex;
+        border-radius: 12px;
+        box-shadow: 1px 2px 2px 1px#008da0;
+        vertical-align: middle;
+    
+    }
+    nav{
+        display: inline;
+        width:80%;
+        
+    }
+    nav ul li{
+        list-style: none;
+        display: inline;
+        padding-right:5%;
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 100%;
+        padding-top: -15%;
+    }
+    nav ul{
+        padding-left:0%;
+        padding-top: 2%;
+    
+    }
+    nav a{
+        text-decoration: none;
+        color:bisque;
+    }
+    nav a:hover{
+        font-weight: 900;
+    }
+    header img{
+        display:inline-block;
+    padding: 2% 20px 0 2%;
+    width:100px;
+    height:auto;   
+    }
+
+    .ti{
+        display: flex;
+        background: #FFFAFA;
+        margin: auto;
+        width: 80vw;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .ti img{
+        width:100px;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .ti figure{
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        width: 100px;
+        position: relative;
+        
+    }
+    .ti figcaption{
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #182c75;
+        vertical-align: middle;
+        width: 100px;
+        height:100px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        }
+        .artesa{
+            display: flex;
+            background: #FFFAFA;
+            margin: auto;
+            width: 80vw;
+            align-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .artesa img{
+            width:100px;
+            height: 100px;
+            vertical-align: middle;
+        }
+        .artesa figure{
+            display: inline-block;
+            align-self: center;
+            text-align: center;
+            width: 100px;
+            position: relative;
+            
+        }
+        .artesa figcaption{
+            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #182c75;
+            vertical-align: middle;
+            width: 100px;
+            height:100px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            }
+            .musica{
+                display: flex;
+                background: #FFFAFA;
+                margin: auto;
+                width: 80vw;
+                align-content: space-between;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            
+            }
+            .musica img{
+                width:100px;
+                height: 100px;
+                vertical-align: middle;
+            }
+            .musica figure{
+                display: inline-block;
+                align-self: center;
+                text-align: center;
+                width: 100px;
+                position: relative;
+                
+            }
+            .musica figcaption{
+                font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #182c75;
+                vertical-align: middle;
+                width: 100px;
+                height:100px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                }
+                .midia{
+                    display: flex;
+                    background: #FFFAFA;
+                    margin: auto;
+                    width: 80vw;
+                    align-content: space-between;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                
+                }
+                .midia img{
+                    width:100px;
+                    height: 100px;
+                    vertical-align: middle;
+                }
+                .midia figure{
+                    display: inline-block;
+                    align-self: center;
+                    text-align: center;
+                    width: 100px;
+                    position: relative;
+                    
+                }
+                .midia figcaption{
+                    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #182c75;
+                    vertical-align: middle;
+                    width: 100px;
+                    height:100px;
+                    text-align: center;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    }
+                    .vest{
+                        display: flex;
+                        background: #FFFAFA;
+                        margin: auto;
+                        width: 80vw;
+                        align-content: space-between;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    
+                    }
+                    .vest img{
+                        width:100px;
+                        height: 100px;
+                        vertical-align: middle;
+                    }
+                    .vest figure{
+                        display: inline-block;
+                        align-self: center;
+                        text-align: center;
+                        width: 100px;
+                        position: relative;
+                        
+                    }
+                    .vest figcaption{
+                        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: #182c75;
+                        vertical-align: middle;
+                        width: 100px;
+                        height:100px;
+                        text-align: center;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        }
+                        .idiomas{
+                            display: flex;
+                            background: #FFFAFA;
+                            margin: auto;
+                            width: 80vw;
+                            align-content: space-between;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                        
+                        }
+                        .idiomas img{
+                            width:100px;
+                            height: 100px;
+                            vertical-align: middle;
+                        }
+                        .idiomas figure{
+                            display: inline-block;
+                            align-self: center;
+                            text-align: center;
+                            width: 100px;
+                            position: relative;
+                            
+                        }
+                        .idiomas figcaption{
+                            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: #182c75;
+                            vertical-align: middle;
+                            width: 100px;
+                            height:100px;
+                            text-align: center;
+                            margin: auto;
+                            display: flex;
+                            justify-content: center;
+                            }
+   
+}
+@media only screen and (max-width:796px){
+    nav ul li{
+        list-style: none;
+        display: inline;
+        padding-right:2%;
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 100%;
+        padding-top: -15%;
+
+    }
+    .ti{
+        display: flex;
+        background: #FFFAFA;
+        margin: auto;
+        width: 80vw;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .ti img{
+        width:100px;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .ti figure{
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        width: 100px;
+        position: relative;
+        
+    }
+    .ti figcaption{
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #182c75;
+        vertical-align: middle;
+        width: 100px;
+        height:100px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        }
+        .artesa{
+            display: flex;
+            background: #FFFAFA;
+            margin: auto;
+            width: 80vw;
+            align-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .artesa img{
+            width:100px;
+            height: 100px;
+            vertical-align: middle;
+        }
+        .artesa figure{
+            display: inline-block;
+            align-self: center;
+            text-align: center;
+            width: 100px;
+            position: relative;
+            
+        }
+        .artesa figcaption{
+            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #182c75;
+            vertical-align: middle;
+            width: 100px;
+            height:100px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            }
+            .musica{
+                display: flex;
+                background: #FFFAFA;
+                margin: auto;
+                width: 80vw;
+                align-content: space-between;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            
+            }
+            .musica img{
+                width:100px;
+                height: 100px;
+                vertical-align: middle;
+            }
+            .musica figure{
+                display: inline-block;
+                align-self: center;
+                text-align: center;
+                width: 100px;
+                position: relative;
+                
+            }
+            .musica figcaption{
+                font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #182c75;
+                vertical-align: middle;
+                width: 100px;
+                height:100px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                }
+                .midia{
+                    display: flex;
+                    background: #FFFAFA;
+                    margin: auto;
+                    width: 80vw;
+                    align-content: space-between;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                
+                }
+                .midia img{
+                    width:100px;
+                    height: 100px;
+                    vertical-align: middle;
+                }
+                .midia figure{
+                    display: inline-block;
+                    align-self: center;
+                    text-align: center;
+                    width: 100px;
+                    position: relative;
+                    
+                }
+                .midia figcaption{
+                    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #182c75;
+                    vertical-align: middle;
+                    width: 100px;
+                    height:100px;
+                    text-align: center;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    }
+                    .vest{
+                        display: flex;
+                        background: #FFFAFA;
+                        margin: auto;
+                        width: 80vw;
+                        align-content: space-between;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    
+                    }
+                    .vest img{
+                        width:100px;
+                        height: 100px;
+                        vertical-align: middle;
+                    }
+                    .vest figure{
+                        display: inline-block;
+                        align-self: center;
+                        text-align: center;
+                        width: 100px;
+                        position: relative;
+                        
+                    }
+                    .vest figcaption{
+                        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: #182c75;
+                        vertical-align: middle;
+                        width: 100px;
+                        height:100px;
+                        text-align: center;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        }
+                        .idiomas{
+                            display: flex;
+                            background: #FFFAFA;
+                            margin: auto;
+                            width: 80vw;
+                            align-content: space-between;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                        
+                        }
+                        .idiomas img{
+                            width:100px;
+                            height: 100px;
+                            vertical-align: middle;
+                        }
+                        .idiomas figure{
+                            display: inline-block;
+                            align-self: center;
+                            text-align: center;
+                            width: 100px;
+                            position: relative;
+                            
+                        }
+                        .idiomas figcaption{
+                            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: #182c75;
+                            vertical-align: middle;
+                            width: 100px;
+                            height:100px;
+                            text-align: center;
+                            margin: auto;
+                            display: flex;
+                            justify-content: center;
+                            }
+}
+@media only screen and (max-width:656px) {
+    header img{
+        display:none;
+    }
+    nav{
+        display: flex;
+        width:100vw;
+        justify-content: center;
+    }
+    nav ul{width: 100vw;
+        display: flex;
+    justify-content: center;}
+    nav ul li{
+        list-style: none;
+        display: inline;
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;
+        padding-top: -15%;
+        justify-content: space-between;
+        
+    }
+    #oport{
+        height:180vh;
+    }
+    .main-login{
+        flex-direction:column;
+    }
+    .left-login > h2{
+        display:none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .card-login{
+        width:80vw;
+    }
+    .ti{
+        display: flex;
+        background: #FFFAFA;
+        margin: auto;
+        width: 80vw;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .ti img{
+        width:50px;
+        height: 50px;
+        vertical-align: middle;
+    }
+    .ti figure{
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        width: 50px;
+        position: relative;
+        
+    }
+    .ti figcaption{
+        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #182c75;
+        vertical-align: middle;
+        width: 50px;
+        height:50px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        }
+        .artesa{
+            display: flex;
+            background: #FFFAFA;
+            margin: auto;
+            width: 80vw;
+            align-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .artesa img{
+            width:50px;
+            height: 50px;
+            vertical-align: middle;
+        }
+        .artesa figure{
+            display: inline-block;
+            align-self: center;
+            text-align: center;
+            width: 50px;
+            position: relative;
+            
+        }
+        .artesa figcaption{
+            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #182c75;
+            vertical-align: middle;
+            width: 50px;
+            height:50px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            }
+            .musica{
+                display: flex;
+                background: #FFFAFA;
+                margin: auto;
+                width: 80vw;
+                align-content: space-between;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            
+            }
+            .musica img{
+                width:50px;
+                height: 50px;
+                vertical-align: middle;
+            }
+            .musica figure{
+                display: inline-block;
+                align-self: center;
+                text-align: center;
+                width: 50px;
+                position: relative;
+                
+            }
+            .musica figcaption{
+                font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #182c75;
+                vertical-align: middle;
+                width: 50px;
+                height:50px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                }
+                .midia{
+                    display: flex;
+                    background: #FFFAFA;
+                    margin: auto;
+                    width: 80vw;
+                    align-content: space-between;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                
+                }
+                .midia img{
+                    width:50px;
+                    height: 50px;
+                    vertical-align: middle;
+                }
+                .midia figure{
+                    display: inline-block;
+                    align-self: center;
+                    text-align: center;
+                    width: 50px;
+                    position: relative;
+                    
+                }
+                .midia figcaption{
+                    font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #182c75;
+                    vertical-align: middle;
+                    width: 50px;
+                    height:50px;
+                    text-align: center;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    }
+                    .vest{
+                        display: flex;
+                        background: #FFFAFA;
+                        margin: auto;
+                        width: 80vw;
+                        align-content: space-between;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    
+                    }
+                    .vest img{
+                        width:50px;
+                        height: 50px;
+                        vertical-align: middle;
+                    }
+                    .vest figure{
+                        display: inline-block;
+                        align-self: center;
+                        text-align: center;
+                        width: 50px;
+                        position: relative;
+                        
+                    }
+                    .vest figcaption{
+                        font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: #182c75;
+                        vertical-align: middle;
+                        width: 50px;
+                        height:50px;
+                        text-align: center;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        }
+                        .idiomas{
+                            display: flex;
+                            background: #FFFAFA;
+                            margin: auto;
+                            width: 80vw;
+                            align-content: space-between;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                        
+                        }
+                        .idiomas img{
+                            width:50px;
+                            height: 50px;
+                            vertical-align: middle;
+                        }
+                        .idiomas figure{
+                            display: inline-block;
+                            align-self: center;
+                            text-align: center;
+                            width: 50px;
+                            position: relative;
+                            
+                        }
+                        .idiomas figcaption{
+                            font-family: 'Grandstander','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: #182c75;
+                            vertical-align: middle;
+                            width: 50px;
+                            height:50px;
+                            text-align: center;
+                            margin: auto;
+                            display: flex;
+                            justify-content: center;
+                            }
+                    }
